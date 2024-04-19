@@ -53,3 +53,22 @@ label{
     line-height: 1rem;
     color: rgba(156, 163, 175, 1);
   }
+
+  .scrollbar::-webkit-scrollbar-track
+  {
+      border-radius: 10px;
+      background-color: #F5F5F5;
+  }
+  
+  .scrollbar::-webkit-scrollbar
+  {
+      width: 12px;
+      background-color: #F5F5F5;
+  }
+  
+  .scrollbar::-webkit-scrollbar-thumb
+  {
+      border-radius: 10px;
+      background-color: #D62929;
+  }
+  
